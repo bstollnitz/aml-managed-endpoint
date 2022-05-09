@@ -1,0 +1,10 @@
+$schema: https://azuremlschemas.azureedge.net/latest/managedOnlineDeployment.schema.json
+name: green
+endpoint_name: endpoint-managed-4
+model: azureml:model-managed:1
+code_configuration:
+  code: ../../src/
+  scoring_script: score.py
+environment: azureml:AzureML-pytorch-1.7-ubuntu18.04-py37-cpu-inference:11
+instance_type: Standard_NC6s_v3
+instance_count: 1

@@ -1,0 +1,4 @@
+$schema: https://azuremlschemas.azureedge.net/latest/model.schema.json
+name: model-managed
+version: 1
+path: "../model/weights.pth"
