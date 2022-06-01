@@ -5,6 +5,6 @@ model: azureml:model-managed@latest
 code_configuration:
   code: ../../src/
   scoring_script: score.py
-environment: azureml:AzureML-pytorch-1.7-ubuntu18.04-py37-cpu-inference:11
+environment: azureml:AzureML-pytorch-1.10-ubuntu18.04-py37-cpu-inference@latest
 instance_type: Standard_DS3_v2
 instance_count: 1
